@@ -1,0 +1,318 @@
+.fixedMenuBurger a:hover, a:active {
+    border-bottom: transparent;
+}
+	
+	
+
+	.menuItems a:hover, a:active {
+    border-bottom: 2px solid transparent;
+}
+
+.menu{
+display: none;
+
+}
+
+.taxi-nav{
+	
+	
+	display:none;
+}
+
+.navi{
+	
+	display:none;
+	
+}
+
+/*.head{
+background:black; 
+height: 5rem;
+position: fixed;
+top: 0px;
+width: 100%;
+z-index: 3;
+}*/
+
+/*.head img{
+	
+	height: 81px;
+	width: 80%;
+	float:left;
+	margin-top:18px;
+	opacity: .9;
+	margin-left: 17%;
+	
+}*/
+
+
+.menuItems{
+    margin-top: -14%;
+}
+
+nav{
+	 		 
+display: none;
+	
+}
+
+  @media only screen and (min-width: 40.063em) {
+      
+	  nav{
+	 		 
+display: block;
+	
+}
+	  
+	  
+	  .head{
+		  
+		 display:none; 
+		  
+	  }
+	  
+	  
+     .menu{
+		 
+display: none;
+
+}
+
+
+
+.taxi-nav{
+	
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+	display:block;
+}
+
+.navi{
+	
+	display:block;
+	
+}
+
+      
+      .menu {
+  display:block;
+  position: fixed;
+  background: -webkit-linear-gradient(top, black 2%,black 100%);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  padding: 1.5rem 3rem;
+  height: 150px;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  top: 0px;
+}
+      
+      
+      .menu img{
+      position: relative;
+    top: -26px;
+    width: 26%;
+    height: 81px;
+    opacity: .9;
+
+      }
+      
+    .fixedMenuBurger {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    right: 5%;
+    z-index: 3000;
+    background: transparent;
+    display: none;
+}
+
+      
+    .menu {
+      height: 5rem; }
+      .menu .inline-list {
+        float: right;
+        margin-top: 0;
+      }
+      .menu a:hover {
+        border-bottom: 2px solid darkorange; } 
+  
+  
+  .menu .inline-list {
+    text-align: center;
+    margin-top: 0%;
+  }
+    .menu .inline-list li {
+      float: none;
+      display: inline-block; 
+        font-size: 19px;
+    margin-right:1px; }
+    .menu .inline-list a {
+      color: #fff;
+      padding-bottom: 0.5rem; }
+      .menu .inline-list a:hover {
+        color: darkorange;
+        transition: all .3s ease-in-out; }
+    .menu .inline-list .active a {
+      color: darkorange; }
+  
+  
+  }
+
+
+
+
+
+
+
+.menu-trigger {
+	position: relative;
+	top: 22px; left: 15px;
+	display: block;
+	width: 50px; height: 50px;
+	cursor: pointer;
+}
+
+.menu-trigger span {
+	position: absolute;
+	top: 50%; left: 0;
+	display: block;
+	width: 100%; height: 4px;
+	margin-top: -2px;
+	background-color: #303030;
+	font-size: 0px;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+
+.menu-open .menu-trigger span {
+	background-color: transparent;
+}
+
+/*Code for three bar burger menu sign*/
+
+.menu-trigger span:before,
+.menu-trigger span:after {
+	position: absolute;
+	left: 0;
+	width: 100%; height: 100%;
+	background: #303030;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.menu-trigger span:before {
+	-webkit-transform: translateY(-330%);
+	transform: translateY(-330%);
+}
+.menu-trigger span:after {
+	-webkit-transform: translateY(330%);
+	transform: translateY(330%);
+}
+
+/* styles for clicking burge make it cross */
+
+.menu-open .menu-trigger span:before {
+	-webkit-transform: translateY(0) rotate(45deg);
+	transform: translateY(0) rotate(45deg);
+    background: white;
+}
+.menu-open .menu-trigger span:after {
+	-webkit-transform: translateY(0) rotate(-45deg);
+	transform: translateY(0) rotate(-45deg);
+    background:white;
+}
+
+.fixedMenuBurger {
+    width: 100px;
+    height: 70px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    right: %;
+    z-index: 3000;
+    background: transparent;
+}
+
+
+.menu-trigger {
+    position: fixed;
+    top: 3.6%;
+    right: 5%;
+    display: block;
+    width: 34px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.menuNav {
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+    display: none;
+}
+
+.menuItems {
+    background: transparent;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    right: 0;
+}
+
+
+.menu-trigger span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: -2px;
+    background-color: orange;
+    font-size: 0px;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.menu-trigger span:before, .menu-trigger span:after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+
+.menuItems a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: block;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.menuItems a:hover {
+   color: orange;
+}

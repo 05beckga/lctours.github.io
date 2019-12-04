@@ -1,0 +1,601 @@
+/* Big tablet to 1200px (width: smaller than the 1140px row) */
+@media only screen and (max-width:1200px){
+	
+	.hero-text-box{
+	
+		width:100%;
+		padding: 0 2%;
+	
+	}
+
+	.row{  
+padding: 0 2%; }
+	
+	.cab-saying{
+    position: absolute;
+    width: 1140px;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+
+
+
+
+.cab-saying h1{
+	
+	font-size: 41px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 13.2%;
+    margin-left: 10%;
+    letter-spacing: 5px;
+    text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    width: 80%;
+	
+	
+}
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width:1023px){
+
+header ul li {
+   
+    margin-left: 15px;
+}
+
+
+.row-services .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+    text-align:center;
+}
+	
+.box1 p {
+    
+    padding: 0 20px;
+}
+		
+	
+.about-section-2 .one-fourth {
+    margin-left: 0px;
+    margin-bottom: 1px;
+  
+}
+
+.vertical-align {
+    width: 57%;
+    margin-top: 95px !important;
+}
+
+.parra-pic {
+       /* height:92vh; */
+       padding: 100px 70px 20px 20px;
+}
+
+.section-container {
+
+    padding: 0 0%;
+}
+
+
+.theme-creative {
+ 
+    font-size: 58px;
+    letter-spacing: 3px;
+    line-height: 80px;
+}
+
+.about-section-2 .one-fourth {
+    
+    width: 100%;
+    height: 299px;
+}
+
+.four-sixths, .two-thirds {
+    width: 100%;
+}
+
+.vegas-container .vegas-slide:first-child .vegas-slide-inner{
+	
+
+  
+    background-position:center!important;
+	 	
+}
+
+
+.form-messages {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+form input[type='text'], form input[type='email'], form input[type='url'], form select, form textarea {
+    width: 90%;
+   
+}
+
+
+ #wheelchairImg {
+    width: 40px;
+    height: auto;
+    position: absolute;
+    right: 0px;
+   
+}
+
+	
+.steps-box img {
+        width: 100%;
+        height: auto;
+	margin-bottom: 15px;
+      
+}
+	
+	#mapHead {
+    text-align: center;
+    height: 114px;
+}
+	 #mapHead h5{
+	
+	font-size: 2.3em;
+    padding: 6px;
+	
+	 
+}
+	
+	.cab-saying{
+		
+		width: 100%;
+		
+	}
+	
+	.cab-saying {
+  
+    top: 30%;
+   
+}
+
+.cab-saying h1 {
+    font-size: 36px;
+    line-height: 60px;
+   
+}
+
+
+	
+	.intro img:first-child {
+    display:none;
+}
+	.intro img:last-child {
+		display:block;
+    box-shadow: 7px 0 10px -5px black;
+    width: 90%;
+    margin-top: 4%;
+}
+	
+	body{ font-size: 18px; }
+	
+	section{ padding: 30px 0;
+
+                  }
+
+  
+	
+	.long-copy{
+		
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.steps-box{ margin-top: 10px; }
+	.steps-box:first-child { margin-top: 10px }
+	.works-steps { margin-bottom: 40px; }
+	.work-steps:last-of-type{ margin-bottom: 60px; }
+	
+	.app-screen { width: 50%; }
+	
+	.icon-small{ 
+	
+		width: 17px;
+		margin-right:10px;
+	}
+	
+	.city-feature{ font-size: 90%;}
+	
+	
+	.plan-box {
+    width: 70%;
+    margin-left: 15%;
+}  
+	
+	.plan-price{     font-size: 210%;
+    line-height: 25px;}
+
+	.contact-form{ width: 80%; }
+	
+}
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+.section-container {
+   
+    margin-bottom: 10px;
+}
+
+.vertical-align {
+      margin-top: 90px !important;
+}
+
+.top-img-tours {
+    height: 340px;
+}
+
+.top-img-contact {
+    height: 340px;
+}
+
+.top-img-about {
+    height: 340px;
+}
+
+.theme-creative {
+ 
+    font-size: 58px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+	
+	.parra-pic {
+    padding: 10px 10px 20px 20px;
+}
+
+.vertical-align {
+    width: 87%;
+}
+
+.theme-creative {
+    font-size: 35px;
+}
+
+.theme-creative span {
+    background: darkorange;
+    color: black;
+    padding: 0px;
+}
+
+.section-contact{
+
+  padding: 5px 0 100px 0;
+
+}
+
+.taxi-bottom {
+    padding-bottom: 60px;
+}
+
+.cab-steps {
+    padding: 2px 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+
+
+.section-services {
+  background-color: #f7f7f7;
+  padding: 30px 0; }
+
+
+.section-price {
+  background-color: #fff;
+  padding: 30px 0; }
+
+.footer-nav li:first-child{
+    margin-left: 37px;
+ }
+
+footer .row:last-child p {
+  
+    margin-top: 0;
+}
+
+footer .row:last-child p {
+    color: #888;
+    text-align: center;
+    line-height: 17px;
+}
+
+.box1 h3{
+
+  text-align: center;
+
+}
+
+
+
+
+  .labelAlign{
+
+   text-align:left;
+
+}
+	
+	.plan-box {
+    width: 90%;
+    margin-left: 5%;
+}
+	
+	
+	.steps-box {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+	
+	 .intro img:first-child {
+    display:block;
+}
+	.intro img:last-child {
+		display:none;
+    
+}
+
+ #mapHead {
+    text-align: center;
+    height: 74px;
+    /* width: 50%; */
+}
+
+ #mapHead h5{
+	
+	font-size: 1.3em;
+    padding: 6px;
+	
+	 
+}
+
+ #mapHead h5:after{
+	
+
+	background-color: inherit !important;
+	 
+}
+
+
+.not-head {
+    height: 3rem;
+  
+}
+
+
+
+header {
+    height: 3rem;
+   
+}
+
+.head {
+  
+    height: 3rem;
+    
+}
+
+.head img {
+    height: 51px;
+    width: 159px;
+    margin-left: 26%;
+    margin-top: 8px;
+}
+
+
+
+.about-pics img {
+    
+    margin-left: 1%;
+   
+}
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+   
+	
+	.cab-saying {
+    top: 45%;
+}
+
+.cab-saying h1 {
+        font-size: 110%;
+	margin-top: 0px;
+        line-height: 40px;
+		
+	}
+	
+	.once, .second{
+		
+		margin-left: 10%;
+		
+	}
+	
+	.service-row{
+		
+		margin-bottom: 10%;
+		
+	}
+	
+	
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    
+    
+    
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-screen { width: 40%; }
+    .steps-box:first-child { text-align: center; }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+	
+	
+	.box p{
+		
+		width:98%;
+		
+	}
+    
+}
+
+
+@media only screen 
+  and (max-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+  
+  .cab-saying h1{
+	  display:none;
+	  
+  }
+
+}
+
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width:480px){
+	
+	.plan-box {
+    width: 90%;
+    margin-left: 5%;
+}
+	
+
+form {
+    margin-left: 3%;
+}
+
+form input[type='text'], form input[type='email'], form input[type='url'], form select, form textarea {
+    width: 100%;
+
+}
+
+
+input[type=submit] {
+     width:50%;
+    margin-left: 23%;
+}
+
+.inputAlign{
+
+   margin-bottom: 24px;
+
+}
+
+	
+	 .intro img:first-child {
+    display:block;
+}
+	.intro img:last-child {
+		display:none;
+    
+}
+	
+	section{ padding: 25px 0; }
+	.contact-form{ width: 90%; }
+	
+	
+	
+	.social-nav {
+		
+		margin-top: 10px;
+		float:none;
+		text-align: center;
+    
+	}
+	
+	.plan-price {
+    
+		text-align: center;
+     
+	 }
+	
+	
+}
+
+@media only screen 
+  and (max-device-width: 484px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  
+  .cab-saying h1{
+	  display:none;
+	  
+  }
+
+}
